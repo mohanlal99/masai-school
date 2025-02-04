@@ -18,6 +18,12 @@ function getRandomPassword(N = 10, isNumber = false, isChar = false) {
   for (let i = 0; i < N; i++) {
     passwrod += randomPassword[Math.floor(Math.random() * N)];
   }
+  if(isChar || isNumber){
+    if(isChar){
+      
+    }
+  }
+  
   return passwrod;
 }
 
