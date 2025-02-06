@@ -2,7 +2,7 @@ function startPrint(n) {
   n = [...new Set(n)];
 
   let temp = [];
-//   consor (let i = 0; i < n.length; i++) {
+  for (let i = 0; i < n.length; i++) {
     for (let j = 0; i < n.length; j++) {
       if (n[i] < n[i + 1]) {
       }

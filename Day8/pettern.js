@@ -11,3 +11,22 @@ function PetternPrinting(n) {
 }
 
 PetternPrinting(5);
+
+
+
+// let str = "Hello./am./i./doing./nothing./"
+// let arr = str.split('./')
+// console.log(arr.join(" "))
+// let newstr = ""
+// for(let i = 0;i<str.length ;i++){
+//   if((str[i]=='.' && str[i+1] =='/') || (str[i]=='/' && str[i-1] =='.') ) {
+//     if(str[i]=='.'){
+//     newstr += " "
+      
+//     }
+//     continue
+//   }
+  
+//   newstr += str[i]
+// }
+// console.log(newstr)
