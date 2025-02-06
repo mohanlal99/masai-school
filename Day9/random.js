@@ -9,12 +9,16 @@ function RandomNumber(range) {
   let str = arr.join("");
   let random = Number(str);
 
-  if (range) {
-    random = Math.floor(random * range);
-    return random;
-  } else {
-    return random;
+  if(random <5){
+    return random
   }
+  // if (range) {
+  //   random = Math.floor(random * range);
+  //   return random;
+  // } else {
+  //   return random;
+  // }
+  return RandomNumber()
 }
 console.log(RandomNumber());
 
