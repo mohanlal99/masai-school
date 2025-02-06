@@ -13,6 +13,8 @@ else if(user.role == 'user' && user.active == true){
 }
 else if(user.role == 'user' && user.active != true){
   console.log("User Access Revoked")
+}else{
+    console.log("Access Denied")
 }
 }
 
