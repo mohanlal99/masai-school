@@ -1,0 +1,45 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="index.js"></script>
+        <style>
+          #matrix{
+            /* border: 2px ,solid blueviolet; */
+            display: grid;
+            grid-template-columns: repeat(3,50px);
+            gap: 2px;
+          }
+          .cell{
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            height: 50px;
+            width: 50px;    
+          }
+        </style>
+    </head>
+
+    <body>
+        <div id="matrix">
+            
+        </div>
+    </body>
+    <script>
+        let arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+        for(let i =0;i<arr.length;i++){
+            for(let j =0;j<arr[i].length;j++){
+                let div = document.createElement('div')
+                div.classList.add('cell')
+                div.innerHTML = arr[i][j]
+                document.getElementById('matrix').appendChild(div)
+            }
+        }
+    </script>
+
+    </html>
