@@ -12,7 +12,7 @@ function filterEvenNumbers(arr){
     return [...arr1, ...arr2]
   }
   
-  let arr = [1,5,357,2,3,49,7,09,2,8,3454,0]
+  let arr = [1,5,357,2,3,49,7,9,2,8,3454,0]
   console.log(filterEvenNumbers(arr))
   console.log(sumOfArray(arr))
-  console.log(sortAndConcat([23,7,5,08,23,9,27],[29,4,58,65,92,3,74,589]))
+  console.log(sortAndConcat([23,7,5,8,23,9,27],[29,4,58,65,92,3,74,589]))
